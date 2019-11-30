@@ -1,0 +1,85 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="TrangXemDiem.master.cs" Inherits="PROJECT_3.MasterPage.TrangXemDiem" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="../Style%20Sheet/TrangChuXemDiem.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <div id="tren">
+            <div id="facebook">
+            <a href="https://www.facebook.com/">
+                <img src="../Image/TrangChuXemDiem/f.png" /></a>
+            </div>
+            <div id="google">
+            <a href="https://www.google.com.vn">
+                <img src="../Image/TrangChuXemDiem/g.png" /></a>
+            </div>
+            <div id="twitter">
+            <a href="https://twitter.com/">
+                <img src="../Image/TrangChuXemDiem/t.png" /></a>
+             </div>
+        </div>
+        <div id="banner">
+            <img src="../Image/TrangChuXemDiem/bn2.PNG" />
+            <a href="#"><div id="tkb">
+                <img src="../Image/TrangChuXemDiem/tkb.png" style="width:40px; height:40px;"/>
+                <span>THỜI KHÓA BIỂU</span>
+            </div></a>
+            <a href="#"><div id="canhan">
+                <img src="../Image/TrangChuXemDiem/cn.png" style="width:40px; height:40px;"/>
+                <span>ĐIỂM CÁ NHÂN</span>       
+            </div></a>
+            <a href="#"><div id="monhoc">
+                <img src="../Image/TrangChuXemDiem/mh.png" style="width:40px; height:40px;"/>
+                <span>ĐIỂM MÔN HỌC</span> 
+            </div></a>
+            <a href="#"><div id="hocky">
+                <img src="../Image/TrangChuXemDiem/hk.png" style="width:40px; height:40px;"/>
+                <span>ĐIỂM HỌC KỲ</span>      
+            </div></a>
+            <a href="#"><div id="trangchu">
+                <img src="../Image/TrangChuXemDiem/home.png" style="width:40px; height:40px;"/>
+                <span>TRANG CHỦ</span>
+            </div></a>
+        </div>
+        <div id="main">
+            <div id="left">
+              <div id="cacthongtin">THỐNG KÊ</div>
+                <div id="thongtin">
+                    <ul>
+                        <a href="#"><li>SINH VIÊN ĐẠT HỌC BỔNG</li></a>
+                        <a href="#"><li>SINH VIÊN NỢ MÔN</li></a>
+                        <a href="#"><li>SINH VIÊN THI LẠI</li></a>
+                        <a href="#"><li>SINH VIÊN LƯU BAN</li></a>                        
+                    </ul>
+                </div>
+                    <div id="timkiem">TÌM KIẾM
+                    <div id="loaitimkiem">
+                    <ul>
+                        <a href="#"><li>THÔNG TIN SINH VIÊN</li></a>
+                        <a href="#"><li>THÔNG TIN GIẢNG VIÊN</li></a>
+                        <a href="#"><li>THÔNG TIN LỚP HỌC</li></a>
+                        <a href="#"><li>THÔNG TIN MÔN HỌC</li></a>                       
+                    </ul>
+                    </div>
+                    </div>
+                </div>
+            <div id="right">
+                <asp:ContentPlaceHolder ID="xemdiem" runat="server">  
+                </asp:ContentPlaceHolder>
+            </div>
+            </div>
+            <div id="footer">Bản quyền thuộc về Đỗ Minh Trình - Lê Thị Yến<br />
+            Khoa Công nghệ Thông tin - Trường ĐHSPKT Hưng yên
+            </div>
+      </div>
+    </form>
+</body>
+</html>

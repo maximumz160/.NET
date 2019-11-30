@@ -1,0 +1,102 @@
+﻿body 
+{
+    background-color:#2e3d71;
+}
+*
+{
+    margin:0px;
+    padding:0px;
+}
+#anhnen
+{
+    position:absolute;
+    left:160px;
+}
+
+#giaovu
+{
+    width: 300px;
+    height:40px;
+    background-color:#ff8a00;
+    position:absolute;
+    top:240px;
+    left:570px;
+}
+#giaovu:hover
+{
+    background-color:#fa6800;
+}
+#giaovu img
+{
+    width:35px;
+    height:35px;
+    margin-top:2px;
+    margin-left:15px;
+}
+#giaovu span 
+{
+    color:#ffffff;
+    font-size:18px;
+    font-family:Tahoma;
+    position:absolute;
+    top:7px;
+    left:70px;
+}
+#giangvien
+{
+    width: 300px;
+    height:40px;
+    background-color:#5bb12f;
+    position:absolute;
+    top:290px;
+    left:570px;
+}
+#giangvien span 
+{
+    color:#ffffff;
+    font-size:18px;
+    font-family:Tahoma;
+    position:absolute;
+    top:7px;
+    left:70px;
+}
+#giangvien img
+{
+    width:35px;
+    height:35px;
+    margin-top:3px;
+    margin-left:17px;
+}
+#giangvien:hover
+{
+    background-color:#008a00;
+}
+#sinhvien
+{
+    width:300px;
+    height:40px;
+    background-color:#00aaff;
+    position:absolute;
+    top:340px;
+    left:570px;
+}
+#sinhvien:hover;
+{
+    background-color:#359;
+}
+#sinhvien img
+{
+    width:35px;
+    height:35px;
+    margin-top:3px;
+    margin-left:17px;
+}
+#sinhvien span 
+{
+    color:#ffffff;
+    font-size:18px;
+    font-family:Tahoma;
+    position:absolute;
+    top:7px;
+    left:70px;
+}

@@ -1,0 +1,75 @@
+﻿body 
+{
+    background-color:#2e3d71;
+}
+*
+{
+    margin:0px;
+    padding:0px;
+}
+#anhnen
+{
+    position:absolute;
+    left:160px;
+}
+#khung
+{
+    width:450px;
+    height:200px;
+    background-color:#eeeeee;
+    top:280px;
+    left:500px;
+    position:absolute;
+    box-shadow:5px 5px 5px #666;
+    color:#666;
+    font-family: "Arial", "Tahoma" , "Verdana", "Sans-Serif";
+    font-size:11px;
+}
+#iusename
+{
+    width:250px;
+    height:25px;
+    color:#666; 
+    margin-top:35px;
+    margin-left:30px;
+}
+#ipass
+{
+    width:250px;
+    height:25px;
+    color:#666; 
+    margin-top:5px;
+    margin-left:30px;
+}
+#slquyen
+{
+   width:159px;
+   height:28px;
+   margin-top:5px;
+   color:#666; 
+}
+#quyen
+{
+    margin-left:30px;
+}
+#signin
+{
+    width:90px;
+    height:30px;
+    margin-left:194px;
+    margin-top:5px;
+    background-color:#da3582;
+    color:White;
+    font-family: "Arial", "Tahoma" , "Verdana", "Sans-Serif";
+    font-size:12px;
+    font-weight:bold;
+}
+#khung img
+{
+    width:150px;
+    height:140px;
+    top:20px;
+    margin-left:300px;
+    float:right;
+    position:absolute;
+}

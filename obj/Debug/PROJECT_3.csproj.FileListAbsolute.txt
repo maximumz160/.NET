@@ -1,0 +1,5 @@
+E:\Do an 3\PROJECT_3\PROJECT_3\bin\PROJECT_3.dll
+E:\Do an 3\PROJECT_3\PROJECT_3\bin\PROJECT_3.pdb
+E:\Do an 3\PROJECT_3\PROJECT_3\obj\Debug\PROJECT_3.dll
+E:\Do an 3\PROJECT_3\PROJECT_3\obj\Debug\PROJECT_3.pdb
+E:\Do an 3\PROJECT_3\PROJECT_3\obj\Debug\PROJECT_3.csprojResolveAssemblyReference.cache
